@@ -10,3 +10,9 @@ body {
   min-height: 100vh;
   background-color: azure;
 }
+
+ul {
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}

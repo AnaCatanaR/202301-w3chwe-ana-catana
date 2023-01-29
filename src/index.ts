@@ -1,6 +1,7 @@
 import { HeaderComponent } from "./components/HeaderComponent/HeaderComponent.js";
 import PageComponent from "./components/PageComponent/PageComponent.js";
 import { getPokemons, getPokemonByName } from "./api/getPokemons.js";
+import { CardsListComponent } from "./components/CardsListComponent/CardsListComponent.js";
 
 const pageComponent = new PageComponent();
 pageComponent.render();
@@ -22,3 +23,6 @@ headerComponent.render();
 
   downloadPokemons = await Promise.all(downloadPokemons);
 })();
+
+const cardsListComponent = new CardsListComponent(container);
+cardsListComponent.render();
