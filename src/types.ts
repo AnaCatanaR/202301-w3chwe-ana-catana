@@ -18,10 +18,10 @@ export interface Type {
   };
 }
 
+export interface ResultsList {
+  name: string;
+}
+
 export interface PokemonsList {
-  results: [
-    {
-      name: string;
-    }
-  ];
+  results: ResultsList[];
 }
