@@ -12,5 +12,4 @@ headerComponent.render();
 
 (async () => {
   const pokemonListResponse = await getPokemons(10, 0);
-  console.log(pokemonListResponse);
 })();
