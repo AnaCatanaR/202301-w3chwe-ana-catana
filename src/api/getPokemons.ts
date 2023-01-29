@@ -1,4 +1,4 @@
-import type { PokemonsList } from "../ts/types.js";
+import type { PokemonsList } from "../types.js";
 
 const pokemonUrlApi = "https://pokeapi.co/api/v2/";
 

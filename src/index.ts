@@ -1,6 +1,6 @@
 import { HeaderComponent } from "./components/HeaderComponent/HeaderComponent.js";
 import PageComponent from "./components/PageComponent/PageComponent.js";
-import { getPokemons } from "../api/getPokemons.js";
+import { getPokemons } from "./api/getPokemons.js";
 
 const pageComponent = new PageComponent();
 pageComponent.render();
