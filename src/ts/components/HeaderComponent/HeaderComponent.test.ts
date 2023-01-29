@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { HeaderComponent } from "./HeaderComponent.js";
 
 describe("Given a component named HeaderComponent", () => {
